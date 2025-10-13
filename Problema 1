@@ -1,0 +1,15 @@
+# Actividad1-Unidad3-Selectivas
+package com.mycompany.t1u3p1;
+import java.util.Scanner;
+
+public class T1U3P1 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Captura numero de sonidos emitidos");
+        double N = sc.nextDouble();
+        double T = N/4 +40;
+        System.out.println("la temperatura es de: "+T);
+        
+    }
+}
