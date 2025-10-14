@@ -1,0 +1,30 @@
+package com.mycompany.t1u3p3;
+import java.util.Scanner;
+/**
+ *
+ * @author USUARIO
+ */
+public class T1U3P3 {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("captura su matricula");
+        String Mat = sc.nextLine();
+        System.out.println("Captura calificaciones");
+        int c1 = sc.nextInt();
+        int c2 = sc.nextInt();
+        int c3 = sc.nextInt();
+        int c4 = sc.nextInt();
+        int c5 = sc.nextInt();
+        double SUM = c1+c2+c3+c4+c5;
+        double prom = SUM / 5;
+        if (prom >=6){
+            System.out.println("; "+Mat+ "el promedio es de; "+prom+ " aprobado");
+        }else{
+            System.out.println("la matricula es; "+Mat+"el promedio es de; "+prom+ "reprobado");
+        }
+    }
+}
+
+    
+
